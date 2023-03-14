@@ -322,14 +322,17 @@ body {
   line-height: 1.36;
   color: var(--secondary-title-color);
 }
+
 .benefits-subtitle {
   color: var(--secondary-title-color);
 }
+
 .benefits-title {
   font-family: var(--secondary-font);
   font-weight: 700;
   color: var(--secondary-title-color);
 }
+
 .benefits-description {
   font-weight: 400;
   font-size: 18px;
@@ -340,21 +343,29 @@ body {
 
 /* --------Tean barbers--------*/
 .barbers {
+  padding-top: 120px;
 }
 .barbers-subtitle {
   color: var(--secondary-title-color);
+  margin-bottom: var(--basic-margin);
 }
 .barbers-title {
   color: var(--secondary-title-color);
+  margin-bottom: 44px;
 }
 .title {
 }
 .barbers-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
+.barbers-content {
+  padding: 30px;
+}
 .barbers-item {
+  width: calc((100% - 60px) / 3);
 }
 .barbers-item-title {
   font-weight: 400;
@@ -374,16 +385,25 @@ body {
 
 /*------gallery---------------*/
 .gallery {
+  padding: 120px 0;
+}
+
+.gallery-container {
 }
 .gallery-subtitle {
   color: var(--secondary-title-color);
+  margin-bottom: 44px;
 }
 
 .gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .list {
 }
 .gallery-item {
+  width: calc((100% - 90px) / 4);
 }
 
 /*------contact---------------*/
